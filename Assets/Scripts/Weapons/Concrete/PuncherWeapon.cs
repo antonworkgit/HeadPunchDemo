@@ -13,12 +13,12 @@ namespace Scripts.Weapons.Concrete
 
         private void OnEnable()
         {
-            _animator.OnAnimationHitEvent += OnAnimationHit;
+            _animator.OnAnimationHitEvent += HandleAnimationHit;
         }
 
         private void OnDisable()
         {
-            _animator.OnAnimationHitEvent -= OnAnimationHit;
+            _animator.OnAnimationHitEvent -= HandleAnimationHit;
             _fireToggled = false;
         }
 

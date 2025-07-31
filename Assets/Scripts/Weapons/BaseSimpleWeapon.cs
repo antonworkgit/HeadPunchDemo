@@ -31,7 +31,7 @@ namespace Scripts.Weapons
             Damageable = 1 << LayerMask.NameToLayer("Damageable");
         }
 
-        public void OnAnimationHit()
+        public void HandleAnimationHit()
         {
             // This should be done in individual systems to observe SRP
             // However, since this is a demo, the logic is kept in a god-class for simplicity and clarity
