@@ -39,8 +39,8 @@ namespace Scripts.Weapons
 
             Ray screenRay = GetScreenRay();
 
-            HandlePunch(screenRay);
             HandlePaint(screenRay);
+            HandlePunch(screenRay);
         }
 
         protected virtual void HandlePunch(Ray screenRay)
