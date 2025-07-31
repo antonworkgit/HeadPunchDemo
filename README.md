@@ -1,6 +1,6 @@
-# Head Punch Demo
+<img width="1013" height="567" alt="preview" src="https://github.com/user-attachments/assets/126a4265-e663-433a-8dde-16675a12a94a" />
 
-[preview png]
+# Head Punch Demo
 
 Данный проект разработан в рамках технического задания
 
@@ -42,7 +42,7 @@
 
 Ниже приведено видео, на котором показано нанесение урона оружием и соответствующее ослабевание головы при получении урона:
 
-[head joint weakened mp4]
+https://github.com/user-attachments/assets/d92fef5d-4739-486c-8520-865d5718d021
 
 ### 2. Механика покраски
 
@@ -55,7 +55,7 @@
 
 Основной шейдер выглядит следующим образом:
 
-[shadergraph png]
+<img width="1393" height="828" alt="shader" src="https://github.com/user-attachments/assets/1b5558e2-ca29-4436-98f7-4fb4300fc3c5" />
 
 Данный шейдер "наносит" текстурку краски поверх базовой текстуры объекта. Для улучшения визуала также строится карта нормалей по текстуре краски.
 
@@ -72,7 +72,7 @@
 
 Ниже показан пример:
 
-[head paintaing walls mp4]
+https://github.com/user-attachments/assets/25aa31a0-a48a-4580-8cdb-004da9f5acab
 
 ### 3. Механика "смерти"
 
@@ -88,7 +88,7 @@
 
 Видео-демонстрация данной механики:
 
-[manneqs disassemble mp4]
+https://github.com/user-attachments/assets/395953b2-fcc2-416e-8e1d-1bf9f53f09e3
 
 ### 4. Механика KillCam
 
@@ -100,11 +100,12 @@
     https://github.com/antonworkgit/HeadPunchDemo/blob/e995e4007ca3cb15d863554fa7dbdccea4791192/Assets/Scripts/Misc/WaitUntilDestroyed.cs#L1-L16
 </details>
 
-[kill cam mp4]
+
+https://github.com/user-attachments/assets/b509c7b3-a3b3-4587-84ea-f19b2ac44a78
 
 ## Демонстрация "всего и сразу"
 
-[all-in-one mp4]
+https://github.com/user-attachments/assets/e2b9a0c2-898f-44aa-b0fa-961d4c4ea626
 
 ## Использованные ассеты
 Из сторонних ассетов использованы [Unity Starter Assets](https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526?srsltid=AfmBOoonO0FBZKtXf811rI2cpkPu-NtOFVGmtaCapNzSipkZagdj_-Ve)
